@@ -108,7 +108,7 @@ bonus_done:
 
 no_bonus:
     # bonus = 0, tidak menambah apapun
-    nop
+    addu $zero, $zero, $zero
 
 end_bonus:
     addi $t4, $t4, 1    # next hole
